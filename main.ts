@@ -1,6 +1,9 @@
 let getal = 0
+basic.showNumber(getal)
 basic.forever(function () {
     basic.showNumber(getal)
     getal += 3
-    basic.pause(1000)
+    if (true) {
+        getal = 0
+    }
 })
