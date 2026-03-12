@@ -1,9 +1,9 @@
 let getal = 0
-basic.showNumber(getal)
 basic.forever(function () {
-    basic.showNumber(getal)
-    getal += 3
-    if (true) {
+    if (getal < 15) {
+        basic.showNumber(getal)
+        getal += 3
+    } else {
         getal = 0
     }
 })
